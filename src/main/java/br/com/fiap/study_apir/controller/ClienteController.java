@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.fiap.study_apir.model.Cliente;
-import br.com.fiap.study_apir.model.Produto;
 import br.com.fiap.study_apir.repository.ClienteRepository;
 
 @RestController

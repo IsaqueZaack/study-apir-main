@@ -1,6 +1,5 @@
 package br.com.fiap.study_apir.model;
 
-import java.math.BigDecimal;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
