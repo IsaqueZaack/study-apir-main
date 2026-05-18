@@ -20,6 +20,12 @@ import lombok.Data;
 @Entity
 @Table(name="produtos")
 public class Produto {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+    private String nome;
+    private BigDecimal valor; // para valores monetários
+
     public Produto() {
 
     }
@@ -28,11 +34,5 @@ public class Produto {
         this.id = id;
         this.nome = nome;
         this.valor = valor;
-
     }
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-    private String nome;
-    private BigDecimal valor; // para valores monetários
 }
